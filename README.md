@@ -1,121 +1,86 @@
-Event Management System
-📌 Overview
+🎉 Event Management System with React JS and Spring Boot
 
-The Event Management System is a full-stack web application designed to simplify the creation, management, and registration of events. The backend is powered by Spring Boot with a MySQL database, while the frontend is built using ReactJS .
+👨‍💻 Made with React
+👨‍💻 Made with Spring Boot
+🗄️ MySQL
+📜 License: MIT
 
-This project provides a user-friendly interface for users to create/manage events and for attendees to register seamlessly.
+This comprehensive system provides a robust and efficient platform for creating, managing, and registering events .
+It leverages the strengths of React JS for a dynamic and user-friendly front-end and Spring Boot for a powerful and scalable back-end architecture.
 
-✨ Features
+✨ Key Features
+🎟️ Event Management
 
-🔑 User Authentication – Secure login and signup functionality
+Create, edit, and delete events with details like event name, date, time, venue, and description .
 
-📝 Event Creation & Management – Organizers can create, edit, and delete events
+View a list of all upcoming events in an interactive dashboard.
 
-👥 Attendee Registration – Users can register for available events
+👤 User Management
 
-📋 Event Listing – View all upcoming events in one place
+User signup and login with secure authentication.
 
-📱 Responsive UI – Works on both desktop and mobile devices
+Event registration for attendees.
 
-🛠️ Technologies Used
+📱 Responsive Design
 
-Backend
+Works seamlessly on desktop and mobile devices.
 
-Java Spring Boot
+🛠 Technology Stack
 
-MySQL
+Frontend:
 
-Hibernate
+React JS → Dynamic and interactive UI
 
-Frontend
+CSS / HTML → Styling and structure
 
-ReactJS
+Backend:
 
-HTML / CSS
+Spring Boot → Robust and scalable REST APIs
 
-Development Tools
+Hibernate / JPA → ORM for database interaction
 
-IntelliJ IDEA (Backend)
+Database:
 
-Visual Studio Code (Frontend)
+MySQL → Efficient data storage and management
 
-⚙️ Setup Instructions
-✅ Prerequisites
+🚀 Getting Started
+1️⃣ Project Setup
 
-Java 8 or higher
+Set up the React frontend
 
-Node.js & npm
+Set up the Spring Boot backend
 
-MySQL
+2️⃣ API Development
 
-IntelliJ IDEA or Eclipse
+Create Spring Boot REST APIs for events and users
 
-Visual Studio Code
+3️⃣ Front-End Development
 
-🚀 Backend Setup
+Build React components for forms, event listings, and user dashboards
 
-Clone the repository
+4️⃣ API Integration
 
-git clone https://github.com/mehreen019/event_management_system.git
-cd event_management_system
+Connect React with Spring Boot APIs using Fetch API or Axios
 
+5️⃣ Data Management
 
-Create a MySQL database:
+Implement form validation, error handling, and secure authentication
 
-CREATE DATABASE event_management;
+6️⃣ Deployment
 
+Deploy backend on cloud (Railway, Render, etc.)
 
-Update database credentials in src/main/resources/application.properties:
+Deploy frontend on hosting services (Vercel, Netlify, etc.)
 
-spring.datasource.url=jdbc:mysql://localhost:3306/event_management
-spring.datasource.username=your_username
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
+📂 Folder Structure
+ems-fullstack/
+│
+├── ems-backend/       # Spring Boot backend
+├── ems-frontend/      # React frontend
+└── screenshots/       # Project screenshots
 
+📌 Author
 
-Run the backend:
-
-Open project in IntelliJ IDEA
-
-RunEventManagementSystemApplication.java
-
-🎨 Frontend Setup
-
-Navigate to frontend directory:
-
-cd frontend
-
-
-Install dependencies:
-
-npm install
-
-
-Start the frontend:
-
-npm start
-
-🎯 Usage
-
-Open in browser: http://localhost:5173
-
-Register and log in as a user.
-
-Create and manage events via dashboard
-
-Browse and register for events
-
-📚 What I Learned
-
-Building a full-stack web application with Spring Boot + ReactJS
-
-Implementing Spring Security for authentication
-
-Handling frontend-backend integration smoothly with REST APIs
-
-Gained experience in managing cross-language applications
-
-# 📌 Author
-# Sanjay Rajamanickam 
-📧 Contact: [pmraja75@gmail.com]  
-🔗 GitHub: [https://github.com/Sanjay-Rajamanickam](https://github.com/Sanjay-Rajamanickam)
+👤 Sanjay Rajamanickam
+📧 Contact: pmraja75@gmail.com
+🔗 GitHub: Sanjay-Rajamanickam
