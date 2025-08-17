@@ -114,3 +114,8 @@ Implementing Spring Security for authentication
 Handling frontend-backend integration smoothly with REST APIs
 
 Gained experience in managing cross-language applications
+
+# 📌 Author
+# Sanjay Rajamanickam 
+📧 Contact: [pmraja75@gmail.com]  
+🔗 GitHub: [https://github.com/Sanjay-Rajamanickam](https://github.com/Sanjay-Rajamanickam)
