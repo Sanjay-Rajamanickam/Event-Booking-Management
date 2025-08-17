@@ -1,80 +1,116 @@
-﻿#  EVENT MANAGEMENT SYSTEM
+Event Management System
+📌 Overview
 
-## OverView ##
+The Event Management System is a full-stack web application designed to simplify the creation, management, and registration of events. The backend is powered by Spring Boot with a MySQL database, while the frontend is built using ReactJS .
 
-The Event Management System is a web application designed to facilitate the creation, management, and registration of events. The backend is built using Spring Boot with a MySQL database, while the frontend is developed using React. This project aims to provide a user-friendly interface for users to manage events and for attendees to register for these events.
+This project provides a user-friendly interface for users to create/manage events and for attendees to register seamlessly.
 
-## Features ##
+✨ Features
 
-- ### User Authentication:  Secure login and registration for users.
-- ### Event Creation:   Users can create and manage events.
-- ### Attendee Registration: Open registration for attendees to join events.
-- ### Event Listing: List of all available events
-- ### Responsive Design: User-friendly interface that works on both desktop and mobile devices.
+🔑 User Authentication – Secure login and signup functionality
 
-<br>
+📝 Event Creation & Management – Organizers can create, edit, and delete events
 
-## Technologies Used ##
+👥 Attendee Registration – Users can register for available events
 
-- ### Backend: ###
-  - Java Spring Boot
-  - MySQL
-  - Hibernate
-- ## Frontend: ###
-  - ReactJS
-  - CSS
-  - HTML
-- ## Tools: ##
-  - IntelliJ IDEA (for backend development)
-  - Visual Studio Code (for frontend development)
-  
-## Setup Instructions: ##
+📋 Event Listing – View all upcoming events in one place
 
-### Prerequisites ###
+📱 Responsive UI – Works on both desktop and mobile devices
 
-- Java 8 or higher
-- Node.js and npm
-- MySQL
-- IntelliJ IDEA or Eclipse
-- Visual Studio Code
-  
-### Backend Setup ###
+🛠️ Technologies Used
 
-1. Clone the repository: <br>
-   `git clone https://github.com/mehreen019/event_management_system.git` <br>
-    `cd event_management_system`
+Backend
 
-2. Set up MySQL database:
-    - Create a new database named 'event_management'.
-    - Update the database configuration in 'src/main/resources/application.properties':
-    `spring.datasource.url=jdbc:mysql://localhost:3306/event_management` <br>
-    `spring.datasource.username=your_username` <br>
-    `spring.datasource.password=your_password` <br>
-    `spring.jpa.hibernate.ddl-auto=update` <br>
+Java Spring Boot
 
-3. Build and run the backend:
-    - Open the project in IntelliJ IDEA.
-    - Run the 'EventManagementSystemApplication' class.
-  
-### Frontend Setup ###
-1. Navigate to the frontend directory:
-    `cd frontend`
-2. Install dependencies:
-   `npm install`
-3. Run the frontend:
-   `npm start`
+MySQL
 
-## Usage ##
+Hibernate
 
-1. Access the application:
-    - Open a web browser and navigate to 'http://localhost:5173'.
-2. Register and log in:
-    - Create a new user account and log in.
-3. Create and manage events:
-    - Use the interface to create new events, edit existing ones, and view all events.
-4. Register for events:
-    - Browse the list of events and register as an attendee.
+Frontend
 
-## What I Learned ##
+ReactJS
 
-This was my first time building a cross language application, so it was simultaneously challenging and rewarding. I also worked with Spring Security this time, and initially faced some difficulties, but was able to overcome them eventually. Overall this was a very enjoyable web app to make.
+HTML / CSS
+
+Development Tools
+
+IntelliJ IDEA (Backend)
+
+Visual Studio Code (Frontend)
+
+⚙️ Setup Instructions
+✅ Prerequisites
+
+Java 8 or higher
+
+Node.js & npm
+
+MySQL
+
+IntelliJ IDEA or Eclipse
+
+Visual Studio Code
+
+🚀 Backend Setup
+
+Clone the repository
+
+git clone https://github.com/mehreen019/event_management_system.git
+cd event_management_system
+
+
+Create a MySQL database:
+
+CREATE DATABASE event_management;
+
+
+Update database credentials in src/main/resources/application.properties:
+
+spring.datasource.url=jdbc:mysql://localhost:3306/event_management
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+
+
+Run the backend:
+
+Open project in IntelliJ IDEA
+
+RunEventManagementSystemApplication.java
+
+🎨 Frontend Setup
+
+Navigate to frontend directory:
+
+cd frontend
+
+
+Install dependencies:
+
+npm install
+
+
+Start the frontend:
+
+npm start
+
+🎯 Usage
+
+Open in browser: http://localhost:5173
+
+Register and log in as a user.
+
+Create and manage events via dashboard
+
+Browse and register for events
+
+📚 What I Learned
+
+Building a full-stack web application with Spring Boot + ReactJS
+
+Implementing Spring Security for authentication
+
+Handling frontend-backend integration smoothly with REST APIs
+
+Gained experience in managing cross-language applications
